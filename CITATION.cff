@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: Laterally-Loaded-Piles-Python-Code-Stress-Integration
+message: "If you use this software, please cite it as below."
+type: software
+
+authors:
+  - family-names: Aboelela
+    given-names: A.E
+
+affiliation: Ain Shams University 
+
+version: 1.0.0
+
+date-released: 2026-06-17
+
+repository-code: "https://github.com/AbdelrahmanPhD/Laterally-Loaded-Piles-Stress-Integration"
+
+keywords:
+  - Laterally loaded piles
+  - Drilled shafts
+  - PLAXIS 3D
+  - Finite difference
+  - Geotechnical engineering
+  - Python
