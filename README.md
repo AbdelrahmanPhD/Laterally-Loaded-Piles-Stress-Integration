@@ -30,9 +30,9 @@ Where the regular vertical grid spacing $\Delta z for a model consisting of M to
 
 ## 🚀 Key Features
 
-* **Gapping Simulation (Physical Filtering):** Automatically filters out positive normal stress regions ($\sigma_N > 0$) to eliminate tension/suction capacity, realistically capturing soil-pile detachment/gapping.
-* **Coordinate Mapping:** Transforms spatial cartesian coordinates ($X, Y$) to polar angles ($\theta_{\text{rad}}$) around the pile center.
-* **Regular Grid Interpolation:** Utilizes `SciPy` to map unstructured mesh nodes to a regular grid to allow robust, user-controlled sensitivity analyses on variables $M$ and $N$.
+* **Gapping Simulation (Physical Filtering):** Automatically filters out positive normal stress regions (\sigma_N > 0) to eliminate tension/suction capacity, realistically capturing soil-pile detachment/gapping.
+* **Coordinate Mapping:** Transforms spatial cartesian coordinates (X, Y) to polar angles (\theta_{\text{rad}}) around the pile center.
+* **Regular Grid Interpolation:** Utilizes `SciPy` to map unstructured mesh nodes to a regular grid to allow robust, user-controlled sensitivity analyses on variables M and N.
 * **Robust Integration:** Implements deterministic summation scaled perfectly to user mesh parameters, ensuring mathematical convergence independent of raw FE slice densities.
 
 ---
